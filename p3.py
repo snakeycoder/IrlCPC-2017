@@ -1,4 +1,5 @@
 import math
+n,w=map(int,input().split())
 pList=[2,3,5,7]
 def checker(i):
     for j in pList:
@@ -13,7 +14,7 @@ for i in range(pList[-1]+1,200):
     checker(i)
 
 
-n,w=map(int,input().split())
+
 j=0
 counter2=0
 while counter2<n:
